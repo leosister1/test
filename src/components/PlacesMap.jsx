@@ -10,7 +10,7 @@ const PlacesMap = ({ height, data }) => {
     const map = MapContainer(7);
 
     data.forEach((item) => {
-      // 마커에 표시할 가게 이름과 맛집 위치
+      // 마커에 표시할 업체 이름과 위치
       const title = item.placeName;
       const position = new kakao.maps.LatLng(item.lat, item.lng);
 
