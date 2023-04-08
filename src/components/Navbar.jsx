@@ -80,7 +80,7 @@ const Navbar = () => {
             <>
               {loggedInUsername() === "김유진" && (
                 <li>
-                  <a href="/place/new">맛집 등록</a>
+                  <a href="/place/new">업체 등록</a>
                 </li>
               )}
               <li>
