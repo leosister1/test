@@ -50,7 +50,7 @@ const Detail = () => {
   }, [data.placeName, data.roadAddress, data.desc, data.image]);
 
   const placeDeleteHandler = () => {
-    if (window.confirm("맛집을 삭제하시겠어요?")) {
+    if (window.confirm("삭제요?")) {
       axios
         .delete(`/api/place/${id}`)
         .then((res) => alert(res.data))
